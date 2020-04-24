@@ -60,7 +60,7 @@ If you use this dataset, please cite [[1]](https://arxiv.org/abs/2004.05484):
 }
 ```
 ## License
-XQuAD-R is distributed under the [CC BY-SA 4.0 license]().
-MLQA-R is distributed under the [insert license]().
+XQuAD-R is distributed under the [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
+MLQA-R is distributed under the [CC BY-NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/legalcode).
 
-This is not an officially supported Google product. 
+This is not an officially supported Google product.
