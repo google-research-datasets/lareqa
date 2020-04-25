@@ -29,14 +29,14 @@ dataset). Unlike XQuAD, the questions in MLQA have a variable number (2-4) of
 correct answers across the corpus. Additionally, MLQA covers only 7 of the 11
 XQuAD languages. 
 
-The files are found under the `mlqa-dev-r/` folder with the following languages:
-* Arabic: `mlqa-dev-r/ar.json`
-* German: `mlqa-dev-r/de.json`
-* English: `mlqa-dev-r/en.json`
-* Spanish: `mlqa-dev-r/es.json`
-* Hindi: `mlqa-dev-r/hi.json`
-* Vietnamese: `mlqa-dev-r/vi.json`
-* Chinese: `mlqa-dev-r/zh.json`
+The files are found under the `mlqa-r/` folder with the following languages:
+* Arabic: `mlqa-r/ar.json`
+* German: `mlqa-r/de.json`
+* English: `mlqa-r/en.json`
+* Spanish: `mlqa-r/es.json`
+* Hindi: `mlqa-r/hi.json`
+* Vietnamese: `mlqa-r/vi.json`
+* Chinese: `mlqa-r/zh.json`
 
 ### Dataset statistics
 We show the number of questions and candidate sentences for each language for both data sets in the tables below.
