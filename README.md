@@ -2,7 +2,7 @@
 [LAReQA](https://arxiv.org/abs/2004.05484) is a challenging benchmark testing language-agnostic answer retrieval from a multilingual candidate pool. Unlike previous cross-lingual tasks, LAReQA tests for "strong" cross-lingual alignment, requiring semantically related *cross*-language pairs to be closer in representation space than unrelated *same*-language pairs. As part of the LAReQA benchmark, we construct a QA retrieval task with a multilingual pool by taking an existing cross-lingual *extractive* QA task [XQuAD](https://github.com/deepmind/xquad) and converting it to a *retrieval task*: **XQuAD-R**. We release XQuAD with sentence breaks in this repository for use as XQuAD-R. Section 3.1 of our paper contains more details on how we convert span-tagging tasks into retrieval tasks. Note that files contained in this repository for XQuAD-R are simply the original XQuAD data annotated with sentence boundaries for each of the paragraphs, added as an additional field in the jsons.
 
 ## Data
-This directory contains 1 folder corresponding to the XQuAD-R datasets.
+This directory contains 1 folder corresponding to the XQuAD-R dataset.
 
 ### XQuAD-R
 XQuAD-R is a retrieval version of the XQuAD dataset (a cross-lingual extractive
@@ -24,7 +24,7 @@ The files are found under the `xquad-r/` folder with the following languages:
 * Chinese: `xquad-r/zh.json`
 
 ### Dataset statistics
-We show the number of questions and candidate sentences for each language for both data sets in the tables below.
+We show the number of questions and candidate sentences for each language for XQuAD-R in the table below.
 
 |     | XQuAD-R   |            |
 |-----|-----------|------------|
@@ -43,14 +43,14 @@ We show the number of questions and candidate sentences for each language for bo
 
 
 ## Training and Evaluation
-We train several baselines models and evaluate them on XQuAD-R and MLQA-R. Our baselines fine-tune [mBERT](https://github.com/google-research/bert) on retrieval versions of [SQuAD v1.1](https://www.aclweb.org/anthology/D16-1264/) training data and translations of this data. See Section 4 of our paper for more details. The trained baselines are released as TFHub modules, linked below for each baseline.
+We train several baselines models and evaluate them on XQuAD-R. Our baselines fine-tune [mBERT](https://github.com/google-research/bert) on retrieval versions of [SQuAD v1.1](https://www.aclweb.org/anthology/D16-1264/) training data and translations of this data. See Section 4 of our paper for more details. The trained baselines are released as TFHub modules, linked below for each baseline.
 
 * [En-En]()
 * [X-X]()
 * [X-X-mono]()
 * [X-Y]()
 
-In the table below, we show the mean average precision (mAP) of all of our baselines on both datasets. See Section 5 of our paper for more results.
+In the table below, we show the mean average precision (mAP) of all of our baselines on XQuAD-R. See Section 5 of our paper for more results.
 
 |          | XQuAD-R |
 |----------|---------|
