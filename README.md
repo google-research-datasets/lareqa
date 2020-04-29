@@ -45,10 +45,10 @@ We show the number of questions and candidate sentences for each language for XQ
 ## Training and Evaluation
 We train several baselines models and evaluate them on XQuAD-R. Our baselines fine-tune [mBERT](https://github.com/google-research/bert) on retrieval versions of [SQuAD v1.1](https://www.aclweb.org/anthology/D16-1264/) training data and translations of this data. See Section 4 of our paper for more details. The trained baselines are released as TFHub modules, linked below for each baseline.
 
-* [En-En]()
-* [X-X]()
-* [X-X-mono]()
-* [X-Y]()
+* [En-En](https://tfhub.dev/google/LAReQA/mBERT_En_En/1)
+* [X-X](https://tfhub.dev/google/LAReQA/mBERT_X_X/1)
+* [X-X-mono](https://tfhub.dev/google/LAReQA/mBERT_X_X_mono/1)
+* [X-Y](https://tfhub.dev/google/LAReQA/mBERT_X_Y/1)
 
 In the table below, we show the mean average precision (mAP) of all of our baselines on XQuAD-R. See Section 5 of our paper for more results.
 
